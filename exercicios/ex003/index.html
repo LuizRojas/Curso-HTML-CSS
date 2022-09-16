@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Uso de imagens</title>
 </head>
 <body>
-    
+    <h1>Testando inserção de imagens</h1>
+    <p>Logo abaixo você está vendo uma imagem da pasta raiz do repositório:</p>
+    <img src="taxi-1200.jpg" alt="imagem-taxi">
+    <p>Também podemos carregar imagens de outras pastas, basta passar seu "caminho". &#x1F604;</p>
+    <img src="fotos/paisagem-600.jpg" alt="imagem-paisagem" title="Cachoeira em grayscale">  <!-- src quer dizer "source" buscar, e alt alternativa, para caso a imagem não possa ser exibida, este texto descreverá a imagem -->
+    <p>Caso necessário, também é possível carregar imagens de meios externos, basta passar sua URL completa.</p>
+    <img src="https://images.pexels.com/photos/5866359/pexels-photo-5866359.jpeg?cs=srgb&dl=pexels-jane-grn-5866359.jpg&fm=jpg" width="400" height="500">  <!-- Não é recomendável fazer o uso deste método, pois o link que foi passado como referência pode estar com problemas -->
 </body>
 </html>
