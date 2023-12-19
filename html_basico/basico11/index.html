@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações Adicionais</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-color: rgb(183, 219, 219);   
+        }
+
+        mark {
+            background-color: rgb(135, 197, 149);
+        }
+    </style>
+</head>
+<body>
+    <h1><mark style="background-color: cadetblue;"><em><u>Essas são algumas formatações adicionais no HTML5</u></em></mark></h1>
+    <img src="imagens/maquina_de_escrever-250_250.webp" alt="máquina de escrever">
+    <h2><mark>Texto deletado</mark></h2>
+    <p>
+        É possível com a tag <strong>&lt;del&gt;<u>Texto aqui</u>&lt;/del&gt;</strong>.
+    </p>
+    <del>Lorem ipsum dolor sit amet.</del>
+    <br>
+    <h2><mark>Texto sobrescrito</mark></h2>
+    <p>
+        É possível com a tag <strong>&lt;sup&gt;<u>Texto aqui</u>&lt;/sup&gt;</strong>.
+    </p>
+    <p>
+        <strong>X<sup>4</sup>+2X<sup>3</sup>-12</strong>
+    </p>
+    <h2><mark>Citações</mark></h2>
+    <p>
+        Caso deseje citar algo, existem duas maneiras de se fazer isso:<br>Pode-se utilizar a tag <strong>&lt;q&gt;<u>Texto aqui</u>&lt;/q&gt;</strong> (para citações simples).<br>
+        <q>Como dizia o pai de um amigo meu: o computador é um burro muito rápido.</q>
+    </p>
+    <p>
+        Ou caso queira algo mais completo, também é possível realizar uma citação completa, basta utilizar a tag <strong>&lt;blockquote&gt;<u>Citação completa</u>&lt;/blockquote&gt;</strong> (para citações completas/em bloco)<br>
+        <blockquote cite="https://curiosidades.com.br">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, doloremque? Iusto soluta consequuntur fugiat aperiam laboriosam recusandae eum nostrum natus!<br>
+            Illum accusantium ullam repellat?
+        </blockquote>
+    </p>
+    <h2><mark>Códigos-fonte</mark></h2>
+    <p>
+        Caso deseje exibir códigos-fonte em sua página web, pode-se utilizar a tag <strong>&lt;code&gt;<u>Código-fonte aqui</u>&lt;/code&gt;</strong><br>
+        <code>
+            nome = 'Peter'
+            print(f'Olá {nome}!')
+        </code>
+        Porém como é possível visualizar, o código não possui tabulação, além de ficar confuso para o leitor. Para contornar este problema, recomenda-se o uso aninhado de tags, combinando-as da seguinte maneira:<br>
+        <strong>
+            &lt;pre&gt;&lt;code&gt;Código-fonte aqui&lt;/code&gt;&lt;/pre&gt;
+            <code></code>
+        </strong>
+        <pre>
+            <code>
+nome = 'Peter'
+print(f'Olá {nome}')
+            </code>
+        </pre>
+        <h2>E um bônus &#x1F60E;</h2>
+        <h3>Abreviações</h3>
+        <p>
+            Repare que as palavras HTML5 e CSS3 estão "sublinhados", para saber o significado dessas abreviações, arraste o cursor até elas e aguarde até que apareça um pop-up (uma pequena mensagem em forma de janela)<br>
+            Estou estudando <abbr title="HyperText Markup Language">HTML5</abbr> e <abbr title="Cascating Style Sheets">CSS3.</abbr></p>
+    </p>
+</body>
+</html>
