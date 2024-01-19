@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo imagem completa? Experimente ampliar o tamanho da janela para aproveitar a melhor experiência &#x1F92F;</p>
+    <a href="paginas/paisagem.html">Para ver outra imagem</a>
+    <br>
+    <picture>
+        <source media="(max-width: 900px)" srcset="imagens/deck-480.jpg" type="image/jpg">
+        <source media="(max-width: 1100px)" srcset="imagens/deck-720.jpg" type="image/jpg">
+        <img src="imagens/deck-768.jpg" alt="deck">
+    </picture>
+</body>
+</html>
