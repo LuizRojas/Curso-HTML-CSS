@@ -5,11 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <title>Imagem Flexível</title>
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+        }
+
+        body {
+            background-color: rgb(224, 218, 218);
+        }
+        
+        a {
+            color: brown;
+        }
+
+        img {
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Imagem Flexível</h1>
+    <div>
+        <h1>Imagem Flexível</h1>
+    </div>
     <p>Aqui não é diferente, amplie o tamanho da janela para aproveitar a melhor experiência &#x1F92F;</p>
-    <a href="../index.html">Para voltar para a página inicial</a>
+    <a href="../index.html">Clique aqui para voltar para a página inicial</a>
     <br>
     <picture>
         <source media="(max-width: 790px)" srcset="../imagens/paisagem-p.png" type="image/png">
