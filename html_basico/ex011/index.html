@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mídias em HTML5</title>
-
-    
 </head>
-<body>
+<body style="font-family: Arial, Helvetica, sans-serif;">
     <h1>Imagens dinâmicas</h1>
     <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
     <picture>
         <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
         <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
-        <img src="imagens/foto-g.png" alt="Imagem Flexível">
+        <img src="imagens/foto-g.png" style="border-radius: 10px;" alt="Imagem Flexível">
     </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" controls>
+        <source src="midia/8-bit-dream-land-142093.mp3" type="audio/mpeg">
+        <p>Parece que seu navegador não pode reproduzir o áudio, mas se desejar pode baixá-lo <a href="midia/8-bit-dream-land-142093.mp3">aqui</a></p>
+        <p>&nbsp;</p>
+    </audio>
+    <img src="imagens/garry.gif" alt="" width="75px">
 </body>
 </html>
